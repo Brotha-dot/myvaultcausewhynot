@@ -5,7 +5,7 @@ sidebar label: Events
 _icon: calendar-blank
 _list_properties_display:
   - "belongs_to"
-_order: 6
+_order: 4
 ---
 
 # Event

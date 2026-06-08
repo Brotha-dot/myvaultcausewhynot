@@ -2,7 +2,7 @@
 type: Type
 color: green
 _icon: books
-_order: 10
+_order: 9
 ---
 
 # Resource

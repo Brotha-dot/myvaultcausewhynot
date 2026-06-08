@@ -1,10 +1,10 @@
 ---
 type: Type
-color: pink
+color: yellow
 sidebar label: People
-_icon: user
 _list_properties_display: null
-_order: 7
+_icon: user
+_order: 5
 ---
 
 # Person

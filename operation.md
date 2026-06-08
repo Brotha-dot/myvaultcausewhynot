@@ -5,7 +5,7 @@ sidebar label: Operations
 _icon: arrows-clockwise
 _list_properties_display:
   - "belongs_to"
-_order: 5
+_order: 12
 ---
 
 # Operation

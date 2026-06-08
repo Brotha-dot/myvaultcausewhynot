@@ -5,7 +5,7 @@ sidebar label: Topics
 _icon: tag
 _list_properties_display:
   - "URL"
-_order: 9
+_order: 8
 ---
 
 # Topic
