@@ -9,7 +9,7 @@ template: |
   -
   ## Notes & Links
   -
-_order: 6
+_order: 7
 ---
 
 # Journal

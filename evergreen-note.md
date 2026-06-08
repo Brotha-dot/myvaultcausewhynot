@@ -2,7 +2,7 @@
 type: Type
 color: green
 _icon: leaf
-_order: 7
+_order: 8
 ---
 
 # Evergreen Note
