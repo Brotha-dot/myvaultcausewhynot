@@ -3,9 +3,9 @@ type: Type
 color: purple
 sidebar label: Operations
 _icon: arrows-clockwise
-_order: 1
 _list_properties_display:
   - "belongs_to"
+_order: 5
 ---
 
 # Operation

@@ -1,9 +1,9 @@
 ---
-type: Note
 related_to: "[[portent]]"
 _organized: true
 Kind:
   - "Essay"
+type: Evergreen Note
 ---
 # Introducing Portent
 

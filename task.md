@@ -3,9 +3,9 @@ type: Type
 color: red
 sidebar label: Tasks
 _icon: check
-_order: 3
 _list_properties_display:
   - "belongs_to"
+_order: 2
 ---
 
 # Task

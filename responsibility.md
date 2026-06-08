@@ -1,9 +1,9 @@
 ---
 type: Type
-color: blue
+color: purple
 sidebar label: Responsibilities
 _icon: target
-_order: 0
+_order: 4
 ---
 
 # Responsibility

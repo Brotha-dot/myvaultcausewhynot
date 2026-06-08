@@ -1,0 +1,13 @@
+name: Journal
+icon: null
+color: null
+order: 0
+sort: null
+filters:
+  all:
+  - field: type
+    op: equals
+    value: Events
+  - field: Date
+    op: equals
+    value: '{{today}}'

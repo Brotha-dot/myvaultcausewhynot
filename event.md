@@ -3,9 +3,9 @@ type: Type
 color: yellow
 sidebar label: Events
 _icon: calendar-blank
-_order: 4
 _list_properties_display:
   - "belongs_to"
+_order: 6
 ---
 
 # Event

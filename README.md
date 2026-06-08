@@ -1,7 +1,7 @@
 ---
-type: Note
 related_to: "[[portent]]"
 _organized: true
+type: Evergreen Note
 ---
 # Portent Vault Template
 

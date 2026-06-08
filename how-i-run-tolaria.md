@@ -1,7 +1,7 @@
 ---
-type: Note
 belongs_to: "[[publish-weekly-essay]]"
 _organized: true
+type: Evergreen Note
 ---
 # How I Run Tolaria
 
