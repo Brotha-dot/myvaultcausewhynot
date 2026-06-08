@@ -1,6 +1,7 @@
 ---
 type: Evergreen Note
 status: Active
+_organized: true
 ---
 
 # The "Copy-Paste" trap is amplified by AI assistance

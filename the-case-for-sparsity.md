@@ -24,8 +24,8 @@ related_to:
   - "[[intentional-coding-is-the-foundation-of-maintainable-software]]"
   - "[[ai-should-be-the-last-report-for-logic-the-first-for-syntax]]"
 type: Essay
+_organized: true
 ---
-
 # The Case for Sparsity: Why AI Should Be the Exception, Not the Rule, in Coding
 
 The rise of Large Language Models has fundamentally changed the landscape of software engineering. With the promise of hyper-productivity, many developers have integrated AI into every step of their workflow. However, to maintain the long-term integrity of our systems and our own skills, we must argue for **sparsity**: the intentional and limited use of AI in the coding process.
@@ -42,7 +42,7 @@ Furthermore, the long-term cost of this assistance is [[Skill atrophy is a silen
 
 ## A Strategy for Intentional Use
 
-To counter these risks, we should adopt a philosophy of [[Intentional coding is the foundation of maintainable software]]. This means treating AI as a high-level tool rather than a constant companion. A useful heuristic is that [[AI should be the last report for logic, the first for syntax]]. By attempting to solve the logic first, we ensure that [[The struggle of debugging is where true learning happens]] and that [[The Rubber Duck effect requires active mental engagement]] remains part of our process.
+To counter these risks, we should adopt a philosophy of [[Intentional coding is the foundation of maintainable software]]. This means treating AI as a high-level tool rather than a constant companion. A useful heuristic is that [[ai-should-be-the-last-report-for-logic-the-first-for-syntax]] . By attempting to solve the logic first, we ensure that [[The struggle of debugging is where true learning happens]] and that [[The Rubber Duck effect requires active mental engagement]] remains part of our process.
 
 AI is undeniably powerful, especially since [[AI excels at boilerplate but struggles with context-aware design]]. But we must remember that [[Code ownership requires deep understanding of every line]]. To truly own our work, we must ensure that [[AI usage should augment, not replace, cognitive effort]]. Only by using AI sparingly can we preserve the [[First principles thinking is the antidote to AI hallucinations]] and the system-wide coherence that defines great software engineering.
 

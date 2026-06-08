@@ -1,6 +1,7 @@
 ---
 type: Evergreen Note
 status: Active
+_organized: true
 ---
 
 # The 'Senior' intuition is built on years of manual failure

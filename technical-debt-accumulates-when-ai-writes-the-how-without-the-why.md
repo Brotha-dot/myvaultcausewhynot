@@ -1,6 +1,7 @@
 ---
 type: Evergreen Note
 status: Active
+_organized: true
 ---
 
 # Technical debt accumulates when AI writes the 'How' without the 'Why'

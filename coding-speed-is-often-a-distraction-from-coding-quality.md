@@ -1,6 +1,7 @@
 ---
 type: Evergreen Note
 status: Active
+_organized: true
 ---
 
 # Coding speed is often a distraction from coding quality

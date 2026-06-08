@@ -1,6 +1,7 @@
 ---
 type: Evergreen Note
 status: Active
+_organized: true
 ---
 
 # AI can optimize syntax but not system-wide coherence
