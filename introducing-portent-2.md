@@ -1,8 +1,7 @@
 ---
 type: Resource
 ---
-# Introducing Portent ☘️
-<div class="substack-post-embed"><p lang="en">Introducing Portent ☘️ by Luca Rossi</p><p>An open spec for knowledge bases, for work and life.</p><a data-post-link href="https://refactoring.fm/p/introducing-portent">Read on Substack</a></div><script async src="https://substack.com/embedjs/embed.js" charset="utf-8"></script>
+# Introducing [[portent]] ☘️
 
 Today it’s almost one month since I released Tolaria, and during this time I have spoken with many people and teams that are trying to use it to create and manage internal knowledge bases.
 
@@ -10,10 +9,11 @@ During these chats, the most recurring questions I receive are not about the too
 
 People understand the tool: types, relationships, views, etc — but are not sure about what types to create, how to connect them together, and what the regular maintenance of all of this looks like.
 
-To help with this, today I am introducing Portent — an open spec for organizing knowledge bases, for work and life.
+To help with this, today I am introducing [[portent]] — an open spec for organizing knowledge bases, for work and life.
 
-Brand new website on portent.md!\
-Portent provides strong defaults for the three key aspects of a knowledge base:
+Brand new website on [[https-portent-md]]!\
+\
+[[portent]] provides strong defaults for the three key aspects of a knowledge base:
 
 Structures — how information is organized into different buckets, whether it’s types, folders, or else.
 
@@ -21,15 +21,15 @@ Relationships — how such structures are connected and related to one another.
 
 Lifecycle — how information flows and is operated.
 
-Portent was built with a few goals in mind:
+[[portent]] was built with a few goals in mind:
 
-Convention over configuration — Portent is like the Rails of knowledge bases. Gives you sane defaults, but keeps you free to extend / change whatever you like.
+Convention over configuration — [[portent]] is like the Rails of knowledge bases. Gives you sane defaults, but keeps you free to extend / change whatever you like.
 
-Usable with any tool — while Portent concepts are first-class citizens in Tolaria, they can be easily implemented in any knowledge mgmt tool.
+Usable with any tool — while [[portent]] concepts are first-class citizens in Tolaria, they can be easily implemented in any knowledge mgmt tool.
 
 Combine life and work — create knowledge bases that blend personal and work data, over the same underlying type system.
 
-Flexible and extensible — Portent is easy to change and extend, and does not corner users into rigid schemas.
+Flexible and extensible — [[portent]] is easy to change and extend, and does not corner users into rigid schemas.
 
 So let’s dive into this. Here is the agenda:
 
@@ -41,7 +41,7 @@ So let’s dive into this. Here is the agenda:
 
 🔄 Lifecycle — capture → organize → archive
 
-🔌 Extending Portent — how to add more things, and what you may add.
+🔌 Extending [[portent]] — how to add more things, and what you may add.
 
 🔨 Tolaria implementation — how to do this in Tolaria. Spoiler: there is a template.
 
@@ -52,10 +52,12 @@ I love LeadDev conferences and I go every year. If you are thinking of coming, y
 Hope to see many friends there and say hi!
 
 📹 Walkthrough\
-If you prefer watching instead of reading, here is my walkthrough of the Portent template 👇
+\
+If you prefer watching instead of reading, here is my walkthrough of the [[portent]] template 👇
 
 📖 Backstory\
-Portent is the result of many years of work, and, just like with Tolaria, it feels that a lot of what I have done in my life has led to this:
+\
+[[portent]] is the result of many years of work, and, just like with Tolaria, it feels that a lot of what I have done in my life has led to this:
 
 2011: PhD — in 2011 I started a PhD to study non-relational databases and how their data models could be mapped one onto another. That started my obsession with organizing information. I later dropped out of my PhD to start a startup 👇
 
@@ -73,10 +75,11 @@ Small — only include what I am 100% sure it’s good, and not more.
 
 Flexible — to accommodate for personal tweaks and preferences.
 
-The best analogy I can find is that Portent is like Rails for knowledge bases: turnkey if you want to, but infinitely customizable if you want to get your hands dirty.
+The best analogy I can find is that [[portent]] is like Rails for knowledge bases: turnkey if you want to, but infinitely customizable if you want to get your hands dirty.
 
 🍱 Types\
-Portent recommends organizing data into eight main types:
+\
+[[portent]] recommends organizing data into eight main types:
 
 Projects
 
@@ -94,7 +97,7 @@ Topics
 
 People
 
-The name Portent itself is an acronym for the first seven types. Plus there’s people at the end, so it’s technically PORTENTP — but bear with me!
+The name [[portent]] itself is an acronym for the first seven types. Plus there’s people at the end, so it’s technically [[portent]]P — but bear with me!
 
 These types are grouped into two clean categories:
 
@@ -104,9 +107,11 @@ ENT(P) — the non-actionable types: Events, Notes, Topics, People.
 
 PORT organizes things to do, while ENTP organizes inert, non-actionable things.
 
-PORT and ENTP are the two big type groups in PORTENT\
+PORT and ENTP are the two big type groups in [[portent]]\
+\
 🔥 PORT\
-PORT is by far the most important part of Portent. I believe the best way to organize a piece of information is downstream of asking: what should I do with it?
+\
+PORT is by far the most important part of [[portent]]. I believe the best way to organize a piece of information is downstream of asking: what should I do with it?
 
 You are going to ask yourself this question all the time, so in order to give good answers, you need a good way to organize things to do. And when I say “things to do” it’s not necessarily work — it’s also personal life. The mental model is the same.
 
@@ -119,7 +124,9 @@ The most useful way I have found to categorize work is to do so along two axes:
 Based on this, we can have four types of work:
 
 You can organize anything you need to do based on size and recurrence\
+\
 Responsibilities\
+\
 Responsibilities are recurring work that can’t be completed in one sitting.
 
 They are good for modeling long-running areas for which you need to keep a standard.
@@ -129,6 +136,7 @@ Responsibilities don’t usually have fixed goals, because they are long-running
 Examples: “stay in good shape”, or “ensure good product retention”.
 
 Projects\
+\
 Projects are one-and-done work that can’t be completed in one sitting. They have a beginning and an end, and a clear definition of done.
 
 They can belong to a responsibility. E.g. if your “ensure good product retention” responsibility measures the NPS of your product, a quarter project might be about a beloved feature that people have been asking since forever, that is expected to improve that.
@@ -136,6 +144,7 @@ They can belong to a responsibility. E.g. if your “ensure good product retenti
 Or if you measure “stay in good shape” with your VO2 max, a quarter project might be to start playing Padel twice a week, and get your VO2 max from X to Y.
 
 Operations\
+\
 Operations are recurring work that can be completed in one sitting. They are procedures that are repeated always the same way, for which there is ideally a set of instructions.
 
 Operations can belong to Responsibilities and Projects. E.g. in your “stay in good shape” responsibility, you might have an operation that describes your weight-lifting routine.
@@ -145,6 +154,7 @@ Or for a Project that is about a new product feature, you might have an Operatio
 Operations are also, as of today, the biggest surface of collaboration with AI agents. Agents deliver a ton of value by owning procedures, that is, performing the same set of actions on a recurring basis.
 
 Tasks\
+\
 Tasks are one-and-done work that can be completed in one sitting. These are important to be defined this way and to be included in the general framework, but I actually do not encourage storing them in the knowledge base.
 
 I am not completely against it either, but I generally believe tasks are better suited to being managed by a dedicated separate tool. For two reasons:
@@ -153,14 +163,16 @@ Ephemeral — once a task is done, there is no big value in keeping it in the ba
 
 Specialized — tasks often require specialized interaction: due dates, status, kanban boards — all things that are better served by dedicated tools.
 
-So yeah, it’s not bad to store tasks in a Portent base per se, but you are probably not going to get a lot out of it either.
+So yeah, it’s not bad to store tasks in a [[portent]] base per se, but you are probably not going to get a lot out of it either.
 
 🌱 ENTP\
+\
 ENTP types are for information that doesn’t need action. Litmus test is: if it needs a status, it’s probably a PORT, otherwise, it’s an ENTP.
 
 Let’s look at them one by one:
 
 Topics\
+\
 Topics are categories that have no expectations of action. They are simply topics of interest, that may or may not be useful in the future.
 
 E.g. I like sim racing, and I often save links with gear or tutorials, but I have no projects or responsibilities about it, so it’s just a topic for me.
@@ -168,26 +180,30 @@ E.g. I like sim racing, and I often save links with gear or tutorials, but I hav
 Or, at work, I may want to save useful resources about databases, but it’s not like I have a responsibility about that. Could just be useful in the future, so I create notes and set them as related to the databases topic.
 
 Events\
+\
 Events are things that happen. They are useful for mapping meetings, achievements, and calendar things.
 
 People\
+\
 People are pretty self-explanatory. You can attach people to pretty much any of the types above, and when done well, it’s like building a CRM.
 
 Notes\
+\
 Finally, Note is simply the default type. When you create a new item, it’s a Note first — and it stays so in absence of a better type for it.
 
 Now, once you have the types in place, how do you connect them together?
 
 🔀 Relationships\
+\
 I believe the best way to model information relationships in a knowledge base is via a very small set of graph-style connections.
 
-Portent encourages two in particular:
+[[portent]] encourages two in particular:
 
 Belongs to — strong relationship: owner, composition, usually in a one-to-many fashion.
 
 Related to — weak relationship: many-to-many, does not demand action.
 
-Based on how you implement these, you can also compute the inverted versions, whose default names in Portent are:
+Based on how you implement these, you can also compute the inverted versions, whose default names in [[portent]] are:
 
 Belongs to → Has, or Children
 
@@ -200,6 +216,7 @@ Use belongs to for relationships towards or between PORT items — e.g. an Opera
 Use related to for relationships between ENTP items — e.g. an Event is related to a Person, a Note is related to a Topic, and so on.
 
 PORT items tend to express ownership / composition, while ENTP express relatedness\
+\
 An important upside of a relationships (and not only type) system, is that relationships stay the same across the whole knowledge base.
 
 To understand why this matters, let’s look at alternative ways to model relationships, via the two most common ways: relational databases (tabular data), and folders (hierarchical data).
@@ -220,7 +237,7 @@ E.g. if you want meeting notes to sit in a “meeting notes” folder but also b
 
 The upside of folders is that they make traversal extremely easy — as long as it’s done along the intended path.
 
-3. Graph relationships Portent’s take is that the upsides of relational and hierarchical models don’t matter nearly as much as in the past now that we have AI.
+3. Graph relationships [[portent]]’s take is that the upsides of relational and hierarchical models don’t matter nearly as much as in the past now that we have AI.
 
 In fact:
 
@@ -239,7 +256,8 @@ None of this is exactly new: graph DBs have been doing this since forever — I 
 Next, let’s talk of lifecycle 👇
 
 🔄 Lifecycle\
-A common problem with knowledge bases is that it’s hard to keep them clean, understandable, and up to date. Portent encourages users to manage notes in three steps: Capture, Organize, and Archive.
+\
+A common problem with knowledge bases is that it’s hard to keep them clean, understandable, and up to date. [[portent]] encourages users to manage notes in three steps: Capture, Organize, and Archive.
 
 These can be implemented as a status property for every note, and are meant to be enforced by your workflow somehow.
 
@@ -265,8 +283,9 @@ I organize my captured notes once a week, and I implemented this workflow direct
 
 You should have a clear way to mark notes as “archived”, so that humans and AI can ignore them by default.
 
-🔌 Extending Portent\
-These are the basic concepts in Portent, but are not meant to be the only ones that live in your knowledge base.
+🔌 Extending [[portent]]\
+\
+These are the basic concepts in [[portent]], but are not meant to be the only ones that live in your knowledge base.
 
 Once you have understood the basics (organization based on actionability, simple relationships, capture vs organize, etc), it’s easy to extend them and add more concepts.
 
@@ -283,11 +302,12 @@ Specialized relationships — once you are sure about your model, it can be grea
 And of course it’s useful to create types that map to the domain language of your use cases. E.g. I write a newsletter and I have types for the Essays I write, Evergreen notes, Podcast interviews, and more.
 
 🔨 Tolaria implementation\
-Portent can be implemented in any note taking system, but has special support in Tolaria.
+\
+[[portent]] can be implemented in any note taking system, but has special support in Tolaria.
 
-I created a Portent template vault here, that you can clone and use in Tolaria.
+I created a [[portent]] template vault here, that you can clone and use in Tolaria.
 
-Tolaria is good for Portent because:
+Tolaria is good for [[portent]] because:
 
 1. Lifecycle management Capture → Organize → Archive is directly supported in Tolaria:
 
@@ -298,14 +318,17 @@ You can organize a note with cmd+E or the organize button in the editor bar
 You can archive a note with the archive button, and it will hide from the default sections.
 
 2. Types & Relationships\
-   Tolaria is natively organized into Types and Relationships, and it suggests default relationships that are exactly the Portent ones.
+   \
+   Tolaria is natively organized into Types and Relationships, and it suggests default relationships that are exactly the [[portent]] ones.
 
 3. Multiple vaults\
-   If you want to use the same type system (Portent) for both life and work, you can create separate vaults and mount them together inside Tolaria for you to see, while maintaining separate access control for e.g. your co-workers.
+   \
+   If you want to use the same type system ([[portent]]) for both life and work, you can create separate vaults and mount them together inside Tolaria for you to see, while maintaining separate access control for e.g. your co-workers.
 
 And that’s it for today! As always, let me know your thoughts on all of this!
 
 I wish you a great week
 
 Sincerely 👋\
+\
 Luca

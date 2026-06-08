@@ -1,0 +1,12 @@
+name: Electronics & Automation
+icon: cpu
+color: "#ef4444"
+sort: "title:asc"
+filters:
+  any:
+    - field: related_to
+      op: contains
+      value: "[[electronics-and-automation]]"
+    - field: title
+      op: equals
+      value: Electronics & Automation

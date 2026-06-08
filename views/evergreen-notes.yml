@@ -1,0 +1,9 @@
+name: Evergreen Notes
+icon: leaf
+color: "#10b981"
+sort: "title:asc"
+filters:
+  all:
+    - field: type
+      op: equals
+      value: Evergreen Note

@@ -1,9 +1,10 @@
 ---
 type: Evergreen Note
 status: Active
+related_to: "[[ai-assisted-development]]"
 _organized: true
 ---
 
 # Code ownership requires deep understanding of every line
 
-When you write code, you own its behavior and its bugs. When AI writes code, the sense of ownership is diluted. If you don't understand every line the AI generated, you cannot truly "own" the codebase or take responsibility for its performance and security.
+When you write code, you own its behavior and its bugs. When AI writes code, the sense of ownership is diluted. If you don't understand every line the AI generated, you cannot truly "own" the codebase or take responsibility for its performance and security. This is especially true when [[verification-of-ai-code-can-be-more-taxing-than-writing-it|verifying AI-generated code]] becomes a secondary thought.

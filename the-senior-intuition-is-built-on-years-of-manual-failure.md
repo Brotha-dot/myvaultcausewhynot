@@ -1,9 +1,10 @@
 ---
 type: Evergreen Note
 status: Active
+related_to: "[[ai-assisted-development]]"
 _organized: true
 ---
 
 # The 'Senior' intuition is built on years of manual failure
 
-Senior developers can often spot a bug or a design flaw at a glance because they have made those mistakes themselves many times. AI shields developers from these "productive failures," potentially slowing down the development of the very intuition that makes a developer valuable.
+Senior developers can often spot a bug or a design flaw at a glance because they have made those mistakes themselves many times. AI shields developers from these "productive failures," potentially slowing down the development of the very intuition that makes a developer valuable. True seniority requires [[the-struggle-of-debugging-is-where-true-learning-happens|manual struggle and learning]].

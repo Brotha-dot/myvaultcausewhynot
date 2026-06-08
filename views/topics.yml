@@ -1,0 +1,9 @@
+name: Topics
+icon: tag
+color: "#3b82f6"
+sort: "title:asc"
+filters:
+  all:
+    - field: type
+      op: equals
+      value: Topic
